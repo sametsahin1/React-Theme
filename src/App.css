@@ -40,3 +40,32 @@
 .read-the-docs {
   color: #888;
 }
+
+.rcb-toggle-button{
+  background-image: url(./assets/live_support.png) !important;
+  background-color: transparent !important;
+}
+
+.rcb-toggle-button {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 194px !important;
+  height: 57px!important;
+  border-radius: 0%!important;
+  border: none!important;
+  cursor: pointer!important;
+  box-shadow: none!important;
+  background-size: 247px!important;
+  background-repeat: no-repeat!important;
+  background-position: center !important;
+}
+.rcb-badge, .rcb-chat-tooltip{
+  display: none !important;
+}
+.rcb-chat-body-container div:nth-child(4) {
+  display: none;
+}
